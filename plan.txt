@@ -1,0 +1,13 @@
+frontend components:
+  typescript react app
+  routing library
+  mobile friendly layout
+
+backend components:
+  express
+  make sure API endpoints can't be exploited. backend does validation as well as frontend
+  database
+
+misc:
+  build pipelines
+  authentication

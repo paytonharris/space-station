@@ -1,0 +1,51 @@
+@keyframes expand {
+  from {
+    transform: scaleX(0);
+    opacity: 0;
+  }
+}
+
+.eventbox-main {
+  position: absolute;
+  align-self: center;
+  padding: 40px;
+  animation: expand 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  display: flex;
+  text-align: center;
+}
+
+.shrink {
+  transition-duration: 0.5s;
+  opacity: 0;
+}
+
+.eventbox-p {
+  color: #cde7fc;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.eventbox-button {
+  color: #f8cdea;
+  position: absolute;
+  margin-left: -20px;
+  margin-top: 200px;
+  justify-self: center;
+  padding: 10px;
+  
+  border: 2px solid #dadada;
+  border-radius: 30px;
+  border-color:#ed9ed3;
+  box-shadow:0 0 10px #ed9ed3;
+  background-color: rgb(110, 77, 99);
+  transition-duration: 0.3s;
+}
+
+.eventbox-button:hover {
+  color: #f8dff0;
+  border-color:#f0b5dc;
+  box-shadow:0 0 10px #ebb1d7;
+  background-color: rgb(126, 86, 113);
+  transition-duration: 0.3s;
+  cursor: pointer;
+}

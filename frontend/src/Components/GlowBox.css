@@ -1,0 +1,8 @@
+.glowbox-main {
+  border: 2px solid #dadada;
+  border-radius: 30px;
+  border-color:#9ecaed;
+  box-shadow:0 0 10px #9ecaed;
+  background-color: #9ec9ed1a;
+  max-width: 300px;
+}

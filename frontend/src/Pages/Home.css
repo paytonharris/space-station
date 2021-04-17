@@ -1,0 +1,32 @@
+.home-main {
+  background-color: #1a1f29;
+  min-height: 100vh;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+}
+
+.home-events-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.topBar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  background-color: #2a2f3a;
+  color: rgb(255, 255, 255);
+}
+.spacer {
+  flex: 1
+}
+.home-title {
+  padding-left: 20px;
+  padding-right: 20px;
+}
