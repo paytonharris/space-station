@@ -37,10 +37,10 @@ const EventBox: React.FunctionComponent<EventBoxPropsType> = ({ event, numberOfE
     <div className={`eventbox-main${eventIsDismissing ? ' shrink' : ''}`}>
       <GlowBox>
         <div>
-          <p className='eventbox-p'>{messageText}</p>
+          <p className='eventbox-p syne-font'>{messageText}</p>
         </div>
       </GlowBox>
-      <a className='eventbox-button' onClick={handleClick}>collect</a>
+      <a className='eventbox-button syne-font' onClick={handleClick}>collect</a>
     </div>
   );
 };

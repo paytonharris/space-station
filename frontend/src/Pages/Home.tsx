@@ -1,6 +1,7 @@
 import * as React from 'react';
 import './Home.css';
 import EventBox from '../Components/EventBox';
+import StarryBackground from '../Components/StarryBackground';
 import { EventType } from '../Types/ReusedTypes';
 
 function getRandomInt(min: number, max: number) {
@@ -20,7 +21,7 @@ const Home = () => {
         amount: getRandomInt(20, 50),
         id: getRandomInt(1, 10000000),
       }])
-    }, 500)
+    }, 2000)
   }, []);
 
   const addToCollection = () => {
@@ -32,13 +33,14 @@ const Home = () => {
   return (
     <div className='home-main'>
       <div className='topBar'>
-        <p className='home-title'>Hello, Dave</p>
+        <p className='home-title abel-font'>USER: DAVE</p>
         <div className='spacer'></div>
-        <p className='home-title'>Total Scrap: {scrapTotal}</p>
+        <p className='home-title abel-font'>SCRAP RESERVE: {scrapTotal}</p>
       </div>
       <div className='home-events-container'>
         {events.length > 0 && <EventBox event={events[0]} collect={addToCollection} />}
       </div>
+      <StarryBackground />
     </div>
   );
 };

@@ -11,3 +11,6 @@ backend components:
 misc:
   build pipelines
   authentication
+
+
+background of stars can have lines like galaxy outlines and bigger stars like suns

@@ -1,0 +1,18 @@
+.starry-main {
+  max-width: 300px;
+}
+
+@keyframes moveright {
+  to {
+    left: 99vw;
+  }
+}
+
+.starry-star {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  background-color: white;
+  animation-name: moveright;
+  animation-duration: 500s;
+}
