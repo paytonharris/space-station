@@ -14,3 +14,14 @@ misc:
 
 
 background of stars can have lines like galaxy outlines and bigger stars like suns
+
+
+next steps:
+  add redux for data flow
+  websocket server for game data (scrap events, money, investments)
+    use joi?
+  set up database
+  make stars animate on loop
+  http server (express, joi, etc) for in-game webpages like corporations with player lists and how much money they have
+  orange interface with money amount, hr, borders, barcodes
+  text saying "remote station interface monitor -- Station E177" to add to lore that you're monitoring a real space station
