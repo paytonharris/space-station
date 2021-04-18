@@ -20,30 +20,30 @@
 }
 
 .eventbox-p {
-  color: #cde7fc;
+  color: rgb(178, 252, 239);
   margin-top: 100px;
   margin-bottom: 100px;
 }
 
 .eventbox-button {
-  color: #f8cdea;
+  color: rgb(255, 199, 234);
   position: absolute;
-  margin-left: -20px;
+  margin-left: -25px;
   margin-top: 200px;
   justify-self: center;
   padding: 10px;
   
   border: 2px solid #dadada;
   border-radius: 30px;
-  border-color:#ed9ed3;
-  box-shadow:0 0 10px #ed9ed3;
-  background-color: rgb(110, 77, 99);
+  border-color:rgb(255, 111, 202);
+  box-shadow:0 0 10px rgb(255, 126, 208);
+  background-color: rgb(90, 18, 63);
   transition-duration: 0.3s;
 }
 
 .eventbox-button:hover {
-  color: #f8dff0;
-  border-color:#f0b5dc;
+  color: rgb(229, 182, 212);
+  border-color:rgb(255, 3, 164);
   box-shadow:0 0 10px #ebb1d7;
   background-color: rgb(126, 86, 113);
   transition-duration: 0.3s;

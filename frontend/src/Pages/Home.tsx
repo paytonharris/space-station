@@ -20,7 +20,7 @@ const Home = () => {
         amount: getRandomInt(20, 50),
         id: getRandomInt(1, 10000000),
       }])
-    }, 10000)
+    }, 500)
   }, []);
 
   const addToCollection = () => {
